@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgopen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/as"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:background="#00ff00"
+        android:id="@+id/textview"
+        android:text="首页"/>
+</LinearLayout>
